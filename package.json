@@ -1,0 +1,19 @@
+{
+  "name": "simple-xor",
+  "version": "0.0.1",
+  "description": "simple implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "lint": "eslint *.js"
+  },
+  "keywords": [
+    "xor"
+  ],
+  "author": "Ya Zhuang <zhuangya@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^1.6.0",
+    "mocha": "^2.3.3"
+  }
+}

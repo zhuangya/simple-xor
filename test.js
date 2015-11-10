@@ -1,8 +1,8 @@
 /*eslint-env node, mocha */
 'use strict';
 
-let assert = require('assert');
-let simpleXor = require('./');
+var assert = require('assert');
+var simpleXor = require('./');
 
 describe('mocha', function () {
   it('should xor with correct result', function () {

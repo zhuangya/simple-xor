@@ -9,12 +9,12 @@ function ord (chr) {
 }
 
 module.exports = function simpleXor (source, key) {
-  let j = 0;
-  let result = '';
-  let ch = '';
+  var j = 0;
+  var result = '';
+  var ch = '';
 
-  for (ch of source) {
-    result += '' + chr(ord(ch) ^ ord(key[j++]));
+  for (var i = 0; i < source.length; i++) {
+    result += '' + chr(ord(source[i]) ^ ord(key[j++]));
     j = j % key.length;
   }
 

@@ -7,6 +7,9 @@
     "test": "mocha test",
     "lint": "eslint *.js"
   },
+  "engines": {
+    "node": ">= 0.10"
+  },
   "keywords": [
     "xor"
   ],

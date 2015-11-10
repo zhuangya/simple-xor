@@ -13,6 +13,10 @@
   "keywords": [
     "xor"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhuangya/simple-xor"
+  },
   "author": "Ya Zhuang <zhuangya@gmail.com>",
   "license": "MIT",
   "devDependencies": {
